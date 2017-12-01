@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0D1BA3B1-B1A5-4904-B672-4F4A668A54E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chopin.Pooling", "src\Chopin.Pooling\Chopin.Pooling.csproj", "{B55A7684-4764-456D-B704-60F56F4652CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{991D3E7E-3249-41DB-95D0-033B2B7E4BBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chopin.Pooling.UnitTest", "test\Chopin.Pooling.UnitTest\Chopin.Pooling.UnitTest.csproj", "{E603A01D-3070-4216-AA0F-8C79ED125CFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{3C5829D4-3F0F-4C90-8122-84A062BDC23A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chopin.Pooling.Sample", "sample\Chopin.Pooling.Sample\Chopin.Pooling.Sample.csproj", "{EFF07704-0893-4ED5-8DAF-61DB5E70C8F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4B79D793-E8CB-4DC2-A826-6AB3EF6F1F30}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		GlobalAssemblyInfo.cs = GlobalAssemblyInfo.cs
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B55A7684-4764-456D-B704-60F56F4652CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55A7684-4764-456D-B704-60F56F4652CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55A7684-4764-456D-B704-60F56F4652CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55A7684-4764-456D-B704-60F56F4652CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E603A01D-3070-4216-AA0F-8C79ED125CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E603A01D-3070-4216-AA0F-8C79ED125CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E603A01D-3070-4216-AA0F-8C79ED125CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E603A01D-3070-4216-AA0F-8C79ED125CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFF07704-0893-4ED5-8DAF-61DB5E70C8F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFF07704-0893-4ED5-8DAF-61DB5E70C8F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFF07704-0893-4ED5-8DAF-61DB5E70C8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFF07704-0893-4ED5-8DAF-61DB5E70C8F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B55A7684-4764-456D-B704-60F56F4652CE} = {0D1BA3B1-B1A5-4904-B672-4F4A668A54E2}
+		{E603A01D-3070-4216-AA0F-8C79ED125CFE} = {991D3E7E-3249-41DB-95D0-033B2B7E4BBC}
+		{EFF07704-0893-4ED5-8DAF-61DB5E70C8F1} = {3C5829D4-3F0F-4C90-8122-84A062BDC23A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1B408E0-4896-4024-81FD-153E8071DB9A}
+	EndGlobalSection
+EndGlobal
