@@ -1,0 +1,15 @@
+language: csharp
+mono: none
+dotnet: 2.0.0
+dist: trusty
+cache: ccache
+solution: SQLinq.sln
+script:
+- dotnet restore
+- dotnet build -c Debug
+- dotnet build -c Release
+- dotnet test ./SQLInq.XunitTest
+- dotnet pack -c Debug --include-symbols  -o $PWD
+- dotnet pack -c Release -o $PWD
+# - dotnet nuget push ./*.nupkg -k $mygetKey -s https://www.myget.org/F/uliian/api/v2/package
+# - dotnet nuget push ./*.symbols.nupkg -k $mygetKey -s https://www.myget.org/F/uliian/symbols/api/v2/package
